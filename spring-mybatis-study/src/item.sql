@@ -1,0 +1,11 @@
+CREATE TABLE `user` (
+`id`  int(11) NOT NULL AUTO_INCREMENT COMMENT '主键' ,
+`name`  char(20) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '用户姓名' ,
+`mobile`  char(11) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '电话' ,
+PRIMARY KEY (`id`)
+)
+ENGINE=InnoDB
+DEFAULT CHARACTER SET=utf8 COLLATE=utf8_general_ci
+AUTO_INCREMENT=1
+ROW_FORMAT=DYNAMIC
+;
